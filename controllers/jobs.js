@@ -2,7 +2,6 @@ const getAllJobs = async (req, res) => {
   res.send('register user');
 }
 
-
 const getJob = async (req, res) => {
   res.send('register user');
 }
