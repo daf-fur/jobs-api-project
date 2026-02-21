@@ -5,7 +5,7 @@ const app = express();
 
 //connectDB
 const connectDB = require("./db/connect");
-const authenticate = require('./middleware')
+const authenticateUser = require("./middleware/authentication");
 
 // routers
 const authRouter = require("./routes/auth");
@@ -40,4 +40,4 @@ const start = async () => {
 
 start();
 
-// 8:00:44
+// 8:03:36
